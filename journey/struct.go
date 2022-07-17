@@ -13,5 +13,9 @@ func main() {
 
 	x := Contact{"Chacha Nurholis", 20}
 
-	fmt.Println(x)
+	name := x.name
+	age := x.age
+
+	fmt.Println("Name", name)
+	fmt.Println("Age", age)
 }
